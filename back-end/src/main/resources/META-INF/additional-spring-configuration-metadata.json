@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "meduza.news.today",
+      "type": "java.lang.String",
+      "description": "Description for meduza.news.today."
+  }
+] }

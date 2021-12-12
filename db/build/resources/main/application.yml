@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: news-db-back-end
+
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    driverClassName: org.postgresql.Driver
+    password: 'postgres'
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create
+    show-sql: 'true'
+
+
+server:
+  port: 8083
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
